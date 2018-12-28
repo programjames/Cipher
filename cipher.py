@@ -18,7 +18,7 @@ text="tiefmxoiiprn hltlcefoaiam veshsyefoet ethrprittod" ## Text to decode
 alphabet="abcdefghijklmnopqrstuvwxyz"                    ## The letters in the alphabet
 baconian_alphabet="abcdefghiklmnopqrstuwxyz"             ## Removes letters j, v (they become i,u)
 
-f=open("listofwords.txt","r")
+f=open("dictionary.txt","r")
 contents=f.read()
 f.close()
 english_words=contents.split("\n")                       ## A list of the english words
